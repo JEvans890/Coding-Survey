@@ -28,17 +28,35 @@
         <label for="Question3">do you prefer an operating system?</label>
             <select>
                 <option value="Windows">Windows</option>
-                <option value="Mac">Mac</option>
-                <option value="Linux">Linux</option>
+                <option value="powerful">Powerful and expressive</option>
+                <option value="flexible">Flexible and dynamic</option>
+                <option value="No Preference">No Preference</option>
+            </select>
+        <br>
+        <label for="Question4">What is your preference for syntax?</label>
+            <select>
+                <option value="Simple">Simple and readable</option>
+                <option value="Concise">Conscise and expressive</option>
+                <option value="Flexible">Flexible and Extensible</option>
+                <option value="No Preference">No Preference</option>
+            </select>
+        <br>
+        <label for="Question5">Do you want a popular or niche language?</label>
+            <select>
+                <option value="Popular">Popular</option>
+                <option value="Niche">Niche</option>
                 <option value="No Preference">No Preference</option>
             </select>
 
     <button type="submit">Submit!</button>
     </form>
 
-    <p class="end hidden">
+    <div id="resultContainer" class="hidden>">
+    <h3>Language Suggestion:</h3>
+    <p>
         Based on your answers, this Coding language suites you best. This is by no means an 'end all be all' and we always encourage continual learning and exploration to see what suits you best at Epicodus. Please use this as a starting point for your learning journey!
     </p>
+    </div>
 </body>
 
 </html>
