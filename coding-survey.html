@@ -3,19 +3,40 @@
 <head>
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     <script src="js/scripts.js"></script>
+    <title>Programming Language Suggester</title>
 </head>
 <body>
     <h1>Which Coding Language Is Best For You?</h1>
     <h2>Take This Quick Survey To Find Out:</h2>
-    <h3>Answer "yes" or "no" to the prompts, then submit!</h3>
+    <h3> Answer the prompts, then submit!</h3>
 
     <form>
-        <label for="answer1"></label>
-        <input id="userinput" type="text" name="">
-        <button type="submit">Submit!</button>
+        <label for="Question1">What do you want to build?</label>
+            <select>
+                <option value="Websites">Websites</option>
+                <option value="Phone Apps">Phone Apps</option>
+                <option value="Video Games">Video Games</option>
+            </select>
+        <br>
+        <label for="Question2">How much experience do you have?</label>
+            <select>
+                <option value="Experienced">Very Experienced</option>
+                <option value="Some Experience">Some Experience</option>
+                <option value="None or Little">Little to None</option>
+            </select>
+        <br>
+        <label for="Question3">do you prefer an operating system?</label>
+            <select>
+                <option value="Windows">Windows</option>
+                <option value="Mac">Mac</option>
+                <option value="Linux">Linux</option>
+                <option value="No Preference">No Preference</option>
+            </select>
+
+    <button type="submit">Submit!</button>
     </form>
 
-    <p class="end">
+    <p class="end hidden">
         Based on your answers, this Coding language suites you best. This is by no means an 'end all be all' and we always encourage continual learning and exploration to see what suits you best at Epicodus. Please use this as a starting point for your learning journey!
     </p>
 </body>
