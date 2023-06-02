@@ -12,8 +12,12 @@ form.onsubmit = function(event) {
             }
         }
 
+
+
     }
 
+const inputField = document.getElementById("inputField");
+const name = inputField.value;
 
-    event.preventDefault();
-}
+event.preventDefault();
+};
